@@ -29,9 +29,9 @@ const Sidebar = ({ showSideBar, setShowSideBar, setSideRef }) => {
           <li onClick={() => handleNavigate()}>
             <NavLink to={'/menu'}>Dinner Menu</NavLink>
           </li>
-          <li onClick={() => handleNavigate()}>
-            <NavLink to={'/bar'}>Bar Menu</NavLink>
-          </li>
+          {/*<li onClick={() => handleNavigate()}>*/}
+          {/*  <NavLink to={'/bar'}>Bar Menu</NavLink>*/}
+          {/*</li>*/}
           <li onClick={() => clickOnLink('venue')}>
             <NavLink to={'/'}>Gallery</NavLink>
           </li>
@@ -44,9 +44,9 @@ const Sidebar = ({ showSideBar, setShowSideBar, setSideRef }) => {
           <li onClick={() => handleNavigate()}>
             <NavLink to={'/vip'}>Book VIP Room</NavLink>
           </li>
-          <li onClick={() => handleNavigate()}>
-            <NavLink to={'/parking'}>Parking</NavLink>
-          </li>
+          {/*<li onClick={() => handleNavigate()}>*/}
+          {/*  <NavLink to={'/parking'}>Parking</NavLink>*/}
+          {/*</li>*/}
         </ul>
       </div>
     </div>
