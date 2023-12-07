@@ -305,6 +305,7 @@ const other = [
     id: uuid(),
     name: "Amaro",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "AMARO MONTENEGRO",
@@ -319,6 +320,7 @@ const other = [
     id: uuid(),
     name: "Vermouth",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "CARPANO ANTICA FORMULA",
@@ -339,6 +341,7 @@ const other = [
     id: uuid(),
     name: "Bitter",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "CAMPARI",
@@ -355,6 +358,7 @@ const other = [
   {
     id: uuid(),
     name: "Gin",
+    isMany: true,
     isRecipe: true,
     description: [
       {
@@ -385,6 +389,7 @@ const whiskey = [
     id: uuid(),
     name: "BURBON-AMERICAN RYE-AMERICAN WHISKEY",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "BULLIET",
@@ -441,6 +446,7 @@ const whiskey = [
     id: uuid(),
     name: "JAPANESE WHISKY",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "HATOZAKI JAPANESE FINEST",
@@ -464,6 +470,7 @@ const whiskey = [
     id: uuid(),
     name: "TAIWANESE WHISKY",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "KAVALAN",
@@ -481,6 +488,7 @@ const whiskey = [
     id: uuid(),
     name: "IRISH",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "RED BREAST 12",
@@ -507,6 +515,7 @@ const whiskey = [
     id: uuid(),
     name: "SCOTCH",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "DALWHINNIE 15",
@@ -599,6 +608,7 @@ const whiskey = [
     id: uuid(),
     name: "Brandy Cognac",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "HENNESSY V.S.O.P.",
@@ -613,6 +623,7 @@ const whiskey = [
     id: uuid(),
     name: "Rum",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "APPLETON 12",
@@ -648,6 +659,7 @@ const whiskey = [
     id: uuid(),
     name: "Tequila (blanco-reposado-anejo)",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "CASAMIGOS",
@@ -680,6 +692,7 @@ const whiskey = [
     id: uuid(),
     name: "Tequila extra anejo",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "1942",
@@ -703,6 +716,7 @@ const whiskey = [
     id: uuid(),
     name: "Mezcal",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "MONTELOBOS",
@@ -714,6 +728,7 @@ const whiskey = [
     id: uuid(),
     name: "Vodka",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "KETEL ONE ",
@@ -743,6 +758,7 @@ const whiskey = [
     id: uuid(),
     name: "Grappa",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "NONINO CHARDONAY",
@@ -765,6 +781,7 @@ const whiskey = [
     id: uuid(),
     name: "Liqueurs",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "COINTREAU",
@@ -812,6 +829,7 @@ const whiskey = [
     id: uuid(),
     name: "Homemade lemonades",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "Berry ",
@@ -832,6 +850,7 @@ const whiskey = [
     id: uuid(),
     name: "Fresh Squeezed juices",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "ORANGE",
@@ -855,6 +874,7 @@ const whiskey = [
     id: uuid(),
     name: "Coffee",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "Espresso",
@@ -875,6 +895,7 @@ const whiskey = [
     id: uuid(),
     name: "Tea",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "Earl Grey",
@@ -895,6 +916,7 @@ const whiskey = [
     id: uuid(),
     name: "Soft Drinks",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "Mexican coke",
@@ -921,6 +943,7 @@ const whiskey = [
     id: uuid(),
     name: "Soft Drinks",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "Mexican coke",
@@ -950,6 +973,7 @@ export const byTheGlass = [
     id: uuid(),
     name: "Sparkling Whites",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "Gruet Brut",
@@ -979,6 +1003,7 @@ export const byTheGlass = [
     id: uuid(),
     name: "Rose",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "Gerard Bertrand Cotes De Roses Rose 22",
@@ -993,6 +1018,7 @@ export const byTheGlass = [
     id: uuid(),
     name: "Red",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "Davis Bynum Russian River Valley Pinot Noir 21",
@@ -1013,6 +1039,7 @@ export const byTheGlass = [
     id: uuid(),
     name: "Sweet/Dessert Wine",
     isRecipe: true,
+    isMany: true,
     description: [
       {
         name: "B&G France Sauternes 18",

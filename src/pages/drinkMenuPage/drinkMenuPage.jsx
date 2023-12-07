@@ -43,7 +43,12 @@ const DrinkMenuPage = () => {
                       {!!food.isRecipe ? (
                         food.description.map((item, index) => {
                           return (
-                            <p className="foodDescription" key={index}>
+                            <p
+                              className={`foodDescription ${
+                                food.isMany ? "many" : ""
+                              }`}
+                              key={index}
+                            >
                               {item.name}
                             </p>
                           );
