@@ -7,16 +7,10 @@ const specialtyCocktails = [
     isRecipe: true,
     description: [
       {
-        name: "Tanqueray londnon dry",
+        name: "Tanqueray londnon dry, Orange juice,",
       },
       {
-        name: "Orange juice",
-      },
-      {
-        name: "Lime juice",
-      },
-      {
-        name: "Angostura Orange bitters",
+        name: "Lime juice, Angostura Orange bitters",
       },
     ],
     price: "",
@@ -27,19 +21,10 @@ const specialtyCocktails = [
     isRecipe: true,
     description: [
       {
-        name: "gin FORD`S infused carcade",
+        name: "gin FORD`S infused carcade, jasmine, ",
       },
       {
-        name: "jasmine ",
-      },
-      {
-        name: "ST-GERMAIN",
-      },
-      {
-        name: "limon lime mix ",
-      },
-      {
-        name: "egg white",
+        name: "ST-GERMAIN, limon lime mix, egg white",
       },
     ],
     price: "",
@@ -50,16 +35,10 @@ const specialtyCocktails = [
     isRecipe: true,
     description: [
       {
-        name: "Cointreau ",
+        name: "Cointreau, Lemon juice, ",
       },
       {
-        name: "Lemon juice",
-      },
-      {
-        name: "Simple syrup",
-      },
-      {
-        name: "Egg white",
+        name: "Simple syrup, Egg white",
       },
     ],
     price: "",
@@ -70,16 +49,10 @@ const specialtyCocktails = [
     isRecipe: true,
     description: [
       {
-        name: "Angostura 5yo",
+        name: "Angostura 5yo, Violet",
       },
       {
-        name: "violet",
-      },
-      {
-        name: "falernum syrup",
-      },
-      {
-        name: "Lime juice",
+        name: "Falernum syrup, Lime juice",
       },
     ],
     price: "",
@@ -93,10 +66,7 @@ const fizz = [
     isRecipe: true,
     description: [
       {
-        name: "Hendricks gin",
-      },
-      {
-        name: "peach blace",
+        name: "Hendricks gin, Peach blace,",
       },
       {
         name: "Fever-Tree Premium Classic tonic water",
@@ -110,7 +80,7 @@ const fizz = [
     isRecipe: true,
     description: [
       {
-        name: "The Botanist gin - Italicus ",
+        name: "The Botanist gin - Italicus,",
       },
       {
         name: "Fever-Tree Mediterranean Tonic Water",
@@ -124,10 +94,7 @@ const fizz = [
     isRecipe: true,
     description: [
       {
-        name: "Bacardi 4",
-      },
-      {
-        name: "homemade tropical mix",
+        name: "Bacardi 4, homemade tropical mix",
       },
       {
         name: "Fever-Tree Elderflower Tonic Water",
@@ -166,7 +133,7 @@ const oldFashioned = [
     isRecipe: true,
     description: [
       {
-        name: "WOODINVILLE",
+        name: "WOODINVILLE, ",
       },
       {
         name: "GIFFARD - Banane Du Bresil",
@@ -180,10 +147,7 @@ const oldFashioned = [
     isRecipe: true,
     description: [
       {
-        name: "BULLIET",
-      },
-      {
-        name: "DISARONNO",
+        name: "BULLIET, DISARONNO, ",
       },
       {
         name: "RED WINE",
@@ -200,16 +164,10 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "calvados",
+        name: "Calvados, Peachtree,",
       },
       {
-        name: "Peachtree",
-      },
-      {
-        name: "Homemade Honey syrup ",
-      },
-      {
-        name: "lime",
+        name: "Homemade Honey syrup, Lime ",
       },
     ],
     price: "",
@@ -220,16 +178,10 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "FOUR ROSES",
+        name: "FOUR ROSES, Simple syrup,",
       },
       {
-        name: "Simple syrup",
-      },
-      {
-        name: "Fresh lemon juice",
-      },
-      {
-        name: "Red wine (Shiraz or Malbech)",
+        name: "Fresh lemon juice, Red wine (Shiraz or Malbech)",
       },
     ],
     price: "",
@@ -240,16 +192,10 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "FOUR ROSES",
+        name: "FOUR ROSES, Fresh Lemon Juice,",
       },
       {
-        name: "Fresh Lemon Juice",
-      },
-      {
-        name: "Sugar Syrup",
-      },
-      {
-        name: "Egg White (Optional)",
+        name: "Sugar Syrup, Egg White (Optional)",
       },
     ],
     price: "",
@@ -271,13 +217,7 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "DON JULIO BLANCO",
-      },
-      {
-        name: "COINTREAU",
-      },
-      {
-        name: "LEMON LIME",
+        name: "DON JULIO BLANCO, COINTREAU, LEMON LIME",
       },
       {
         name: "GIFFARD - Creme De Violette Liqueur",
@@ -294,10 +234,7 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "Campari",
-      },
-      {
-        name: "Antica Formula",
+        name: "Campari, Antica Formula,",
       },
       {
         name: "RUSSELL`S RESERVE 6",
@@ -311,10 +248,7 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "Campari",
-      },
-      {
-        name: "Antica Formula",
+        name: "Campari, Antica Formula",
       },
       {
         name: "Fever-Tree Premium Club Soda",
@@ -328,13 +262,7 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "KETEL ONE",
-      },
-      {
-        name: "BLACKBERRIES",
-      },
-      {
-        name: "LEMON-LIME",
+        name: "KETEL ONE, BLACKBERRIES, LEMON-LIME",
       },
       {
         name: "GIFFARD - Cassis Noir De Bourgogne",
@@ -348,7 +276,7 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "Akashi Tai",
+        name: "Akashi Tai, ",
       },
       {
         name: "Fever-Tree Sparkling Lime & Yuzu",
@@ -362,10 +290,7 @@ const sour = [
     isRecipe: true,
     description: [
       {
-        name: "Aperol",
-      },
-      {
-        name: "Mionetto",
+        name: "Aperol, Mionetto",
       },
       {
         name: "Fever-Tree Premium Club Soda",
@@ -399,13 +324,13 @@ const other = [
         name: "CARPANO ANTICA FORMULA",
       },
       {
+        name: "NOILLY PRAT",
+      },
+      {
         name: "MARTINI  ROSSO-BIANCO-FIERO",
       },
       {
         name: "MARTINI RISERVA SPECIALE AMBRATO-RUBINO",
-      },
-      {
-        name: "NOILLY PRAT",
       },
     ],
     price: "",
@@ -449,9 +374,6 @@ const other = [
       },
       {
         name: "TANQUERAY",
-      },
-      {
-        name: "TANQUERAY NO10",
       },
     ],
     price: "",
@@ -1128,7 +1050,7 @@ export const drinkMenu = [
   },
   {
     id: uuid(),
-    title: "Whisk(e)y",
+    title: "Whiskey",
     type: whiskey,
   },
   {

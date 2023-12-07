@@ -44,9 +44,9 @@ const Sidebar = ({ showSideBar, setShowSideBar, setSideRef }) => {
           <li onClick={() => handleNavigate()}>
             <NavLink to={"/vip"}>Book VIP Room</NavLink>
           </li>
-          {/*<li onClick={() => handleNavigate()}>*/}
-          {/*  <NavLink to={'/parking'}>Parking</NavLink>*/}
-          {/*</li>*/}
+          <li onClick={() => handleNavigate()}>
+            <NavLink to={"/parking"}>Parking</NavLink>
+          </li>
         </ul>
       </div>
     </div>
